@@ -12,7 +12,7 @@ function App() {
       <MyNav />
       <MySection />
       <MovieSlide saga="Berserk" />
-      <MovieSlide saga="Ken" />
+      <MovieSlide saga="Gossip girl" />
       <MovieSlide saga="Akira" />
       <MovieSlide saga="Fullmetal Alchemist" />
       <Myfooter />
