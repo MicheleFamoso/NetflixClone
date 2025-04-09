@@ -4,6 +4,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
 
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 const MySettings = function () {
   return (
@@ -15,13 +16,13 @@ const MySettings = function () {
         data-bs-theme="dark"
       >
         <Container fluid className=" m-0">
-          <Navbar.Brand href="#home">
+          <Link to="/" className=" navbar-brand">
             <img
               src="../public/logo.png"
               alt="logo"
               style={{ width: "100px", height: "55px" }}
             />
-          </Navbar.Brand>
+          </Link>
         </Container>
       </Navbar>
       <Container fluid className=" min-vh-100">

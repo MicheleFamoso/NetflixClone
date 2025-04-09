@@ -6,6 +6,7 @@ import { Navigation } from "swiper/modules";
 import Spinner from "react-bootstrap/Spinner";
 import Alert from "react-bootstrap/Alert";
 import { Col, Container, Row } from "react-bootstrap";
+import { data, Link } from "react-router-dom";
 
 const url = "http://www.omdbapi.com/?apikey=8edd6b54&s=";
 
@@ -107,16 +108,14 @@ class MovieSlide extends Component {
           )}
           {this.state.film.map((movie) => (
             <SwiperSlide key={movie.imdbID} className=" img-fluid">
-              {" "}
               <div className=" mt-5 ">
-                <img
-                  src={movie.Poster}
-                  alt={movie.Title}
-                  className=" w-100 img-hover-effect"
-                />
-                <h3 className=" text-white-50 mt-1 ms-3 text-truncate ">
-                  {movie.Title}
-                </h3>
+                <Link to={"/details/" + movie.imdbID}>
+                  <img
+                    src={movie.Poster}
+                    alt={movie.Title}
+                    className=" w-100 img-hover-effect"
+                  />
+                </Link>
               </div>
             </SwiperSlide>
           ))}
