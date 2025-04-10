@@ -9,22 +9,6 @@ import { Link } from "react-router-dom";
 const MySettings = function () {
   return (
     <>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        className=" bg-dark sticky-top "
-        data-bs-theme="dark"
-      >
-        <Container fluid className=" m-0">
-          <Link to="/" className=" navbar-brand">
-            <img
-              src="../public/logo.png"
-              alt="logo"
-              style={{ width: "100px", height: "55px" }}
-            />
-          </Link>
-        </Container>
-      </Navbar>
       <Container fluid className=" min-vh-100">
         <Row className="d-flex justify-content-center">
           <Col sm="12" lg="4">

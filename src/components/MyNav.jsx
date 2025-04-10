@@ -30,7 +30,9 @@ const MyNav = function () {
               <Nav.Link href="#">My List</Nav.Link>
             </Nav>
             <Nav>
-              <i className="bi bi-search icons text-white me-3"></i>
+              <Link to="/search">
+                <i className="bi bi-search icons text-white me-3"></i>
+              </Link>
               <div className="fw-bold text-white me-3">KIDS</div>
               <i className="bi bi-bell icons text-white me-3"></i>
               <Link to="/settings">
