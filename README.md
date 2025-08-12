@@ -1,12 +1,28 @@
-# React + Vite
+# Clone Netflix - Esercizio React + Bootstrap + SCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Descrizione:**  
+Clone dell’interfaccia di Netflix, realizzato con **React** per la gestione dinamica dei componenti e con **Bootstrap** personalizzato tramite **SCSS** per layout e stile. Progetto interamente responsive e ottimizzato per desktop, tablet e mobile.
 
-Currently, two official plugins are available:
+**Obiettivo:**  
+Integrare React con Bootstrap e SCSS per creare un’interfaccia modulare, scalabile e responsive, replicando l’esperienza visiva di Netflix.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Caratteristiche
 
-## Expanding the ESLint configuration
+- **Componenti React** per una gestione modulare dell’interfaccia  
+- **Layout responsive** basato sul sistema grid di Bootstrap  
+- **Stile personalizzato** tramite SCSS, con variabili e override di Bootstrap  
+- Struttura grafica ispirata alla homepage di Netflix  
+- Sezioni di film organizzate per categoria  
+- Supporto a immagini e locandine dinamiche
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Struttura del progetto
+
+- `src/components/` — componenti React (header, slider, cards, ecc.)  
+- `src/scss/` — file SCSS personalizzati  
+- `src/App.js` — struttura principale dell’applicazione  
+- `public/` — risorse statiche e HTML base
+
+---
+
+**Nota:** progetto didattico focalizzato su frontend e UI, senza funzionalità di streaming o backend.
+
